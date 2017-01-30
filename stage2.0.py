@@ -28,7 +28,8 @@ def getText():
         random_sentence = random.choice(sentence)
         index = random_sentence[0].find('New')
         if index != -1:
-            print random_sentence[0],random_sentence[1]
+            #print random_sentence[0],random_sentence[1]
+    print random_sentence[1]
 
     #print str(sentence).decode('string-escape')
 
